@@ -11,7 +11,7 @@
 ## 2. KIỂM TRA MẠNG & KẾT NỐI
 | Nếu gặp tình huống... | Hãy dùng lệnh | Giải thích |
 | :--- | :--- | :--- |
-| **Cần biết Port 80 có ai dùng chưa** | `netstat -tulnp | grep :80` | Kiểm tra xem Nginx hay Apache đang chiếm port. |
+| **Cần biết Port 80 có ai dùng chưa** | `netstat -tulnp grep :80` | lưu ý ngay grep có dấu gạch đứng,Kiểm tra xem Nginx hay Apache đang chiếm port. |
 | **Khách than mạng chậm/lag** | `traceroute [IP_Khách]` | Xem gói tin bị nghẽn ở nhà mạng nào (VNPT/Viettel...). |
 | **Check domain đã trỏ đúng IP chưa** | `dig @8.8.8.8 domain.com A` | Hỏi thẳng Google để tránh bị cache DNS nhà mạng. |
 | **Copy data giữa 2 Server cực nhanh** | `rsync -avz /source/ root@IP:/dest/` | Chỉ copy những gì thay đổi, tự nối lại nếu rớt mạng. |

@@ -47,7 +47,6 @@ Có 3 mức độ xác thực chứng chỉ SSL từ thấp đến cao:
 Domain (Tên miền) giống như "địa chỉ nhà" của bạn trên Internet (Ví dụ: `vietnix.vn`). Nó thay thế cho những dãy địa chỉ IP máy chủ khô khan (Ví dụ: `103.200.23.123`) giúp con người dễ nhớ và truy cập.
 
 ### 2. Các trạng thái (Vòng đời) của Domain
-Khi hỗ trợ khách hàng, cần check WHOIS để xem trạng thái domain đang nằm ở đâu:
 1. **Available (Tự do):** Tên miền chưa ai đăng ký, có thể mua ngay.
 2. **Active (Đang hoạt động):** Tên miền đã được mua và đang dùng bình thường.
 3. **Expired / Grace Period (Hết hạn / Chờ gia hạn):** Từ 0-30 ngày sau khi hết hạn. Web ngừng hoạt động nhưng chủ cũ vẫn có thể gia hạn với giá gốc.
